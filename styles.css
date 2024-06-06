@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('fonts/Satoshi-Variable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('fonts/Satoshi-VariableItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Satoshi', sans-serif;
+    background-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    padding: 12.64px;
+}
+
+.inner-container {
+    display: flex;
+}
+
+.image svg{
+    height: 100%;
+}
+
+.right_container {
+    padding: 12px 16px;
+    height: 100vh;
+}
+
+.sign_in_container {
+    text-align: center;
+    width: 608px;
+    height: 546px;
+    align-items: center;
+    justify-content: center;
+}
+
+.account_text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.welcome_text {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.account_text_small {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6A6C77;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.prof_email_add {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6A6C77;
+    float: left;
+}
+
+.input_box,
+.input_box_2 {
+    background-color: #F5F5FA;
+    width: 608px;
+    height: 43px;
+    border-radius: 8px;
+    padding: 11px 14px 11px 14px;
+    margin-bottom: 30px;
+}
+
+.input_box svg,
+.input_box_2 .lock_icon {
+    float: left;
+}
+
+.eye_closed_icon {
+    float: right;
+}
+
+a {
+    color: #4949AC;
+}
+
+.next_button {
+    background-color: #4949AC;
+    width: 300px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px;
+    margin-top: 30px;
+    border: none;
+}
+
+.next_button svg{
+    margin-left: 40px;
+}
