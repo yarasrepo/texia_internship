@@ -32,8 +32,9 @@ body {
     display: flex;
 }
 
-.container.image{
+.container img{
     height: 100%;
+    border-radius: 12px;
 }
 
 .right_container {
